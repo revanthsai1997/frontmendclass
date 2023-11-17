@@ -1,0 +1,126 @@
+body{
+    background-color: #B8FAED;
+    margin: 0;
+}
+.main{
+    margin: 5% 15% 5% 15%;
+    /* margin: 0 auto; */
+    display: flex;
+}
+
+.profilepic{
+    float: left;
+    width: 45%;
+}
+
+#profilepic{
+    height: 550px;
+    width: 95%;
+    object-fit: none;
+    border-radius: 20px;
+    transition: transform .2s; 
+}
+
+#profilepic:hover{
+    transform: scale(1.2);
+}
+
+.profile{
+    float: left;
+    width: 55%;
+    padding-top: 1.5em;
+}
+
+h1{
+    font-size: 42px;
+    margin-bottom: 0;
+    color: rgb(6, 124, 6);
+}
+
+#rollno{
+    font-size: 28px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+#profile-desc{
+    line-height: 1.5;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+}
+
+.projects{
+    display: flex;
+    width: 100%;
+    background-color: #E2FFFF;
+}
+
+.projects-container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    font-size: 58px;
+    color: rgb(6, 124, 6);
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#open-project{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.project-name{
+    font-size: 32px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-description{
+    color: rgb(6, 124, 6);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+}
+
+.project-pic{
+    transition: transform .2s; 
+}
+
+.project-pic:hover{
+    transform: scale(1.2);
+}
+
+.contact{
+    text-align: center;
+    color: rgb(6, 124, 6);
+}
+
+.contact p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.contact a{
+    display: block;
+    color: rgb(6, 124, 6);
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.social{
+    width: 100%;
+    background-color: #E2FFFF;
+    text-align: center;
+    padding: 20px 0;
+}
